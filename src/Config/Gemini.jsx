@@ -8,7 +8,7 @@ import {
   } from "@google/generative-ai";
   
  
-  const genAI = new GoogleGenerativeAI("Paste here your Api key if you want to get api key ,you can use google stdio ");
+  const genAI = new GoogleGenerativeAI("AIzaSyBx9zpOgafBtYNZlgZD5jHBRQ_0srR_VIk");
   
   const model = genAI.getGenerativeModel({
     model: "gemini-2.0-flash-exp",
